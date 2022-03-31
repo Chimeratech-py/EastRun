@@ -19,6 +19,8 @@ export class CarListComponent implements OnInit {
   }
 
   getCars(){
-    this.carsLocal = this.carsService.getCars();
+    this.carsService.getCars().subscribe(response => {
+      this.carsLocal = response;
+    });
   }
 }

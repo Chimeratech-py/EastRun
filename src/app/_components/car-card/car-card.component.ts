@@ -10,7 +10,7 @@ import { CarsService } from 'src/app/_services/cars.service';
 export class CarCardComponent implements OnInit {
   @Input() carIndv!: Car;
 
-  constructor(private carsService: CarsService) { }
+  constructor() { }
 
   ngOnInit(): void {
 

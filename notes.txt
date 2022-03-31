@@ -1,5 +1,8 @@
 Components
-Parent to child
+Parent to child communication
 Services
 models
 data
+
+Optional:
+Observables/Subscription/RxJS
